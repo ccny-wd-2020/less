@@ -1,0 +1,30 @@
+body {
+  background-color: #9CC53A;
+}
+h1 {
+  color: #5F9DA0;
+  font-style: Impact, Charcoal, sans-serif;
+}
+h2 {
+  color: #B24D94;
+  background-color: #9CC53A;
+  font-style: Impact, Charcoal, sans-serif;
+}
+p {
+  color: #7d4db2;
+  line-height: 1px;
+  font-size: 25px;
+}
+.borderAndSpace {
+  border: solid 2px black;
+  width: 100%;
+  margin: 10px;
+}
+.beatles-song {
+  border: solid 2px black;
+  width: 100%;
+  margin: 10px;
+}
+.beatles-song p {
+  font-style: "Lucida Console", Courier, monospace;
+}

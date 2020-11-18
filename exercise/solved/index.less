@@ -1,0 +1,36 @@
+@textCenter : center;
+
+@goodPadding : 15px;
+
+@imgHeight : 200px;
+@imgWidth : 150px;
+
+@inlineDiv : flex;
+
+@preferredMargin : auto;
+
+header {
+  h1 {
+    text-align: @textCenter;
+    padding: @goodPadding;
+  }
+}
+
+.songs {
+  .centeredAndResponsive();
+  div {
+    padding: (@goodPadding + 10px);
+    img {
+      height: @imgHeight;
+      width: @imgWidth;
+    }
+  }
+}
+
+.centeredAndResponsive {
+  display: @inlineDiv;
+  text-align: @textCenter;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: @preferredMargin;
+}
